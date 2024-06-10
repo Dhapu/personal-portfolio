@@ -1,0 +1,59 @@
+/* Contact.css */
+
+.footer {
+    background-color: #1a1a1a; /* Dark background for the footer */
+    color: white;
+    padding: 20px 0; /* Padding for spacing */
+    text-align: center;
+  }
+  
+  .contactWrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .contactHeading {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #fff;
+  }
+  
+  .contactIconWrapper {
+    display: flex;
+    justify-content: center;
+    gap: 30px; /* Space between icons */
+    flex-wrap: wrap;
+  }
+  
+  .contactIcons {
+    font-size: 36px;
+    color: #fff;
+    transition: color 0.3s;
+  }
+  
+  .contactTags {
+    margin-top: 5px;
+    font-size: 14px;
+  }
+  
+  .contactIcons:hover {
+    color: #0077b5; /* LinkedIn color for LinkedIn icon hover */
+  }
+  
+  .contactIconWrapper a:nth-child(2) .contactIcons:hover {
+    color: #333; /* GitHub color for GitHub icon hover */
+  }
+  
+  .contactIconWrapper a:nth-child(3) .contactIcons:hover {
+    color: #D44638; /* Gmail color for Gmail icon hover */
+  }
+  
+  .contactIconWrapper a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: #fff; /* Default text color */
+  }
+  
