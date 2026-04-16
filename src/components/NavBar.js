@@ -1,12 +1,6 @@
 import { Navbar, Container, Nav } from 'react-bootstrap';
 import { useState, useEffect } from 'react';
 import logo from '../assets/img/logo.svg';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGithub, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons'
-import { faEnvelopeOpenText } from '@fortawesome/free-solid-svg-icons'
-import navIcon1 from '../assets/img/nav-icon1.svg';
-import navIcon2 from '../assets/img/nav-icon2.svg';
-import navIcon3 from '../assets/img/nav-icon3.svg';
 
 const NavBar = () => {
   const [activeLink, setActiveLink] = useState('home');

@@ -8,13 +8,13 @@ function Experience() {
                 <h2 className="experience-heading">Experience</h2>
                 <ul className="timeline">
                     <li className="timeline-item">
-                        <a target="_blank" href="#">SpanIdea Systems</a>
-                        <a href="#" className="timeline-date">Aug 2023 - May 2024</a>
+                        <a href="https://spanidea.com/" target="_blank" rel="noreferrer">SpanIdea Systems</a>
+                        <span className="timeline-date">Aug 2023 - May 2024</span>
                         <p className="timeline-role">Associate Software Engineer</p>
                     </li>
                     <li className="timeline-item">
-                        <a href="#">YBI Foundation</a>
-                        <a href="#" className="timeline-date">Nov 2021 - Dec 2021</a>
+                        <a href="https://www.ybifoundation.org/" target="_blank" rel="noreferrer">YBI Foundation</a>
+                        <span className="timeline-date">Nov 2021 - Dec 2021</span>
                         <p className="timeline-role">Machine Learning Intern</p>
                     </li>
                 </ul>

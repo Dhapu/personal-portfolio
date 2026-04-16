@@ -1,5 +1,5 @@
 {
-  "buildCommand": "npm run build",
+  "buildCommand": "set \"BROWSERSLIST_IGNORE_OLD_DATA=true\" && npm run build",
   "outputDirectory": "build",
   "framework": "create-react-app",
   "rewrites": [

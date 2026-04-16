@@ -10,7 +10,7 @@
 
 # production
 /build
-/build-vercel-check
+/build-vercel-check*
 
 # misc
 .DS_Store
