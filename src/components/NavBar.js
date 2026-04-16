@@ -47,7 +47,7 @@ const NavBar = () => {
             <Nav.Link href="#education" className={activeLink === 'education' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('education')}>Education</Nav.Link>
             <Nav.Link href="#experience" className={activeLink === 'experience' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('experience')}>Experience</Nav.Link>
             <Nav.Link href="#contact" className={activeLink === 'contact' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('contact')}>Contact</Nav.Link>
-            <Nav.Link href="https://drive.google.com/file/d/1DZQjpZCO13xaaKUvo8w_XzRoR3rXB6JI/view?usp=sharing" target="_blank" className={activeLink === 'resume' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('resume')}>Resume</Nav.Link>
+            {/* <Nav.Link href="https://drive.google.com/file/d/1DZQjpZCO13xaaKUvo8w_XzRoR3rXB6JI/view?usp=sharing" target="_blank" className={activeLink === 'resume' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('resume')}>Resume</Nav.Link> */}
           </Nav>
           
         </Navbar.Collapse>

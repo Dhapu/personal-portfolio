@@ -57,7 +57,7 @@ export const Banner = () => {
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Welcome to my Portfolio</span>
                 <h1>{`Hi! I'm Dhapu`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Frontend Developer", "Software Developer" ]'><span className="wrap">{text}</span></span></h1>
-                  <p>I'm from Jodhpur, Rajasthan, currently working as a Frontend Developer at Spanidea Systems. In my role, I specialize in skills like React.js, JavaScript, Redux, HTML, and CSS to create engaging and user-friendly web experiences.</p>
+                  <p>I am a Frontend Developer experienced in building dynamic web applications using React.js, JavaScript, Redux, HTML, and CSS. Previously worked at Spanidea Systems, I took a career break to focus on personal development and upskilling. I am now actively seeking opportunities to apply my skills and deliver impactful user experiences.</p>
                   {/* <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button> */}
               </div>}
             </TrackVisibility>

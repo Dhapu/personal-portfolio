@@ -9,7 +9,7 @@ function Experience() {
                 <ul className="timeline">
                     <li className="timeline-item">
                         <a target="_blank" href="#">SpanIdea Systems</a>
-                        <a href="#" className="timeline-date">Aug 2023 - Present</a>
+                        <a href="#" className="timeline-date">Aug 2023 - May 2024</a>
                         <p className="timeline-role">Associate Software Engineer</p>
                     </li>
                     <li className="timeline-item">

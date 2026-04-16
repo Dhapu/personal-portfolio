@@ -2,18 +2,12 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCard";
 import Particle from "./Particle";
-import leaf from "../assets/Projects/leaf.png";
-import emotion from "../assets/Projects/emotion.png";
-import editor from "../assets/Projects/codeEditor.png";
-import chatify from "../assets/Projects/chatify.png";
-import suicide from "../assets/Projects/suicide.png";
-import bitsOfCode from "../assets/Projects/blog.png";
-import expense from "../assets/Projects/expense.png";
-import house from "../assets/Projects/house.jpg";
-import todo3 from "../assets/Projects/todo3.jpg";
-import whatss from "../assets/Projects/whatss.png";
-import quiz from "../assets/Projects/quiz.jpg";
-import sale from "../assets/Projects/sale.jpg";
+import ecommerceCover from "../assets/Projects/ecommerce-cover.svg";
+import restaurantCover from "../assets/Projects/restaurant-cover.svg";
+import todoCover from "../assets/Projects/todo-cover.svg";
+import lmsCover from "../assets/Projects/lms-cover.svg";
+import spotifyCover from "../assets/Projects/spotify-cover.svg";
+import tourismCover from "../assets/Projects/tourism-cover.svg";
 
 export const Projects = () => {
   return (
@@ -29,34 +23,34 @@ export const Projects = () => {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={quiz}
+              imgPath={ecommerceCover}
               isBlog={false}
-              title="Quiz Application"
-              description="Developed a dynamic quiz application using React.js and Material-UI components, allowing users to take quizzes on various topics"
-              ghLink="https://github.com/Dhapu/quiz-applications"
-              
+              title="E-Coomerce App"
+              description="Developed a dynamic e-commerce application using React.js and Material-UI components, allowing users to browse products, add items to their cart, and complete purchases."
+              ghLink="https://github.com/Dhapu/Ecommerce-application"
+              demoLink="https://ecommerce-application-alpha.vercel.app/"            
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={expense}
+              imgPath={restaurantCover}
               isBlog={false}
-              title="Expense Tracker App"
-              description="Expense tracker app build with React.js and Tailwind Css which enabling users to manage their finances effectively."
-              ghLink="https://github.com/Dhapu/expense-tracker-app"
-              // demoLink="https://blogs.soumya-jit.tech/"
+              title="Restaurent-Food-Order-Management-System"
+              description="Developed a Restaurant Food Management System using React.js with TypeScript and Tailwind CSS. The application includes dynamic menu browsing, category-based filtering, and a fully functional cart system with real-time updates."
+              ghLink="https://github.com/Dhapu/restaurent-food-management"
+              demoLink="https://food-mrheced88-dhapus-projects.vercel.app/"            
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={todo3}
+              imgPath={todoCover}
               isBlog={false}
               title="Todo List App"
-              description="Todo List App build with react.js. It helps you to manage your day to day tasks. "
-              ghLink="https://github.com/Dhapu/todo-app"
-              // demoLink="https://editor.soumya-jit.tech/"              
+              description="A modern Angular todo app built with TypeScript, standalone components, and LocalStorage persistence. It includes task management essentials like create, edit, complete, delete, search, filtering, due dates, priority levels, dark mode, and drag-and-drop reordering in a responsive UI. "
+ghLink="https://github.com/Dhapu/todo-application"
+              demoLink="https://todo-application-ten-omega.vercel.app/"              
             />
           </Col>
 
@@ -64,34 +58,40 @@ export const Projects = () => {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={sale}
+              imgPath={lmsCover}
               isBlog={false}
-              title="Sale Order Management System"
-              description="Developed a  front end web application using React.js and Chakra UI. The application allows users to manage their sales orders. "
-              ghLink="https://github.com/Dhapu/sale-order-management"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              title="Learning Management System"
+              description="Full-featured Learning Management System with Admin/Instructor/Student dashboards. Course catalog, enrollment, lessons, quizzes, progress tracking, notifications."
+              ghLink = "https://github.com/Dhapu/LMSystem"
+              demoLink="https://lm-system-alpha.vercel.app/login"            
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={whatss}
+              imgPath={spotifyCover}
               isBlog={false}
-              title="Whatsapp Clone"
-              description="Whatsapp clone build with React.js and Material-UI. It is a real time chat application which allows users to send messages as well as read them. "
-              ghLink="https://github.com/Dhapu/whatsapp-clone"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              title="Spotify-Clone"
+              description="Built a fully responsive Spotify clone using ReactJS with Material-UI, styled-components, and Axios. Features include:
+
+Interactive sidebar navigation and collapsible mobile menu
+Real-time song search and filtering
+Dynamic song lists with play/pause controls
+Audio player with next/previous functionality
+Song details panel with responsive split layout
+Mock API integration for song data fetching "
+              ghLink="https://github.com/Dhapu/spotify-clone"
+              demoLink="https://spotify-clone-kohl-one.vercel.app/"            
             />
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={house}
+              imgPath={tourismCover}
               isBlog={false}
-              title="Houce Price Prediction"
-              description="Used the Houce price dataset from Kaggle to predict the house price in India.Utilized Python programming language and popular libraries such as Pandas, NumPy, and Scikit-learn for data preprocessing, model
-training, and evaluation."
-              ghLink="https://github.com/Dhapu/Houce-Price-Prediction"
-              // demoLink="https://plant49-ai.herokuapp.com/"
+              title="India-Tourism-Website"
+              description="A modern, responsive React single-page application built with Vite and Tailwind CSS, showcasing India's top tourist destinations.Features interactive search/filtering, detailed destination views, trip planner, user authentication (login/signup), dark mode, and smooth navigation."
+ghLink="https://github.com/Dhapu/tourism-website"
+              demoLink="https://india-tourism-website.vercel.app/"            
             />
           </Col>
         </Row>

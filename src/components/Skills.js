@@ -3,6 +3,7 @@ import react from "../assets/skills/react.svg";
 import html from "../assets/skills/html.svg";
 import css from "../assets/skills/css.svg";
 import javascript from "../assets/skills/javascript.svg";
+import typescript from "../assets/skills/typescript.svg";
 import java from "../assets/skills/java.svg";
 import python from "../assets/skills/python.svg";
 import django from "../assets/skills/django.svg";
@@ -13,6 +14,7 @@ import bootstrap from "../assets/skills/bootstrap.svg";
 import git from "../assets/skills/git.svg";
 import materialui from "../assets/skills/materialui.svg";
 import nextJS from "../assets/skills/nextJS.svg";
+import angularjs from "../assets/skills/angularjs.svg";
 import 'react-multi-carousel/lib/styles.css';
 import arrow1 from "../assets/img/arrow1.svg";
 import arrow2 from "../assets/img/arrow2.svg";
@@ -56,6 +58,10 @@ export const Skills = () => {
                                 <h5>JavaScript</h5>
                             </div>
                             <div className="item">
+                                <img src={typescript} alt="TypeScript" className="skill-image"/>
+                                <h5>TypeScript</h5>
+                            </div>
+                            <div className="item">
                                 <img src={python} alt="Python" className="skill-image"/>
                                 <h5>Python</h5>
                             </div>
@@ -74,6 +80,10 @@ export const Skills = () => {
                             <div className="item">
                                 <img src={nextJS} alt="Next JS" className="skill-image"/>
                                 <h5>Next JS</h5>
+                            </div>
+                            <div className="item">
+                                <img src={angularjs} alt="AngularJS" className="skill-image"/>
+                                <h5>AngularJS</h5>
                             </div>
                             <div className="item">
                                 <img src={django} alt="Django" className="skill-image"/>
